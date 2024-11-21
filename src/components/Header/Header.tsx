@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-full bg-cr-purple h-1/10 flex flex-row items-center">
+    <div className="w-full bg-cr-purple h-1/10 text-xl flex flex-row items-center">
       <div>
         <Link to="/home" className="flex items-center">
           <img
@@ -15,6 +15,11 @@ const Header = () => {
       <div>
         <Link to="/cv" className="flex">
           CV
+        </Link>
+      </div>
+      <div>
+        <Link to="/teaching" className="flex">
+          Teaching
         </Link>
       </div>
       <div>
