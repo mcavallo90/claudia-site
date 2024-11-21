@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div className="h-7vh bg-cr-purple text-white pr-10 pl-10 flex justify-between items-center text-xl">
-      <p className="">
-        Claudia Ranocchia, claudiaranocchia@gmail.com, Madrid
-      </p>
+    <div className="p-10 flex justify-between items-center text-xl text-secondary">
+      <div>Claudia Ranocchia</div>
+      <div>claudiaranocchia@gmail.com</div>
+      <div>Universidad Autonoma de Madrid</div>
     </div>
   );
 };

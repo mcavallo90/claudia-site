@@ -4,9 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        "cr-purple": "#6d509b",
+        primary: "#686767",
+        secondary: "#3B3B3B",
+        danger: "#e74c3c",
+      },
+      fontFamily: {
+        // sans: ["Inter", "sans-serif"],
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [],
 };

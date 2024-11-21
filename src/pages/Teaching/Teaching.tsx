@@ -1,7 +1,7 @@
 const Teaching = () => {
   return (
-    <div>
-      <h2>Teaching</h2>
+    <div className="w-full h-full flex flex-col items-center p-20">
+      <p className="text-4xl text-secondary">Teaching</p>
       <p>
         I have taught various subjects, including history, mathematics, and
         computer science.

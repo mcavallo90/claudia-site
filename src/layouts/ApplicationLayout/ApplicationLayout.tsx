@@ -11,7 +11,7 @@ const ApplicationLayout = ({ children }: ApplicationLayoutProps) => {
   return (
     <div className="w-full flex flex-col h-screen justify-between">
       <Header />
-        <div className="flex-1 bg-gray-100">
+        <div className="flex-1 h-full w-full bg-gray-100">
           {children}
           <Outlet />
         </div>
