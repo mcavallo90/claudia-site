@@ -2,7 +2,7 @@ const CV = () => {
   return (
     <div className="w-full h-full flex flex-col items-center p-20">
       <p className="text-6xl text-secondary font-semibold">Curriculum Vitae</p>
-      <div className="flex flex-col my-20 gap-10">
+      <div className="flex flex-col my-20 gap-10 text-primary text-xl">
         <p>
           Here you will find my CV, including my education, experience, and
           skills.

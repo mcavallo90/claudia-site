@@ -9,7 +9,7 @@ export interface ApplicationLayoutProps {
 
 const ApplicationLayout = ({ children }: ApplicationLayoutProps) => {
   return (
-    <div className="w-full h-screen flex flex-col justify-between">
+    <div className="w-full h-full flex flex-col justify-between">
       <Header />
         <div className="flex-1 h-full w-full bg-gray-100">
           {children}

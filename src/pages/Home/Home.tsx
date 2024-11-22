@@ -5,10 +5,10 @@ const Home = () => {
     <div className="w-full h-full flex flex-col items-center px-48 py-20">
       <p className="text-6xl text-secondary font-semibold">Claudia Ranocchia</p>
       <div className="flex my-20 gap-10">
-        <img src="/assets/icons/person-dark.png" alt="" className="w-20 h-20" />
+        <img src="/assets/photos/profile.jpeg" alt="" className="w-100 h-80" />
         <div className="flex flex-col gap-5">
           <p className="text-xl text-primary">Hello, welcome to my website!</p>
-          <p className="text-xl text-primary">I'm a environmental economist.</p>
+          <p className="text-xl text-primary">I'm a Environmental Economist.</p>
           <p className="text-xl text-primary">
             I am currently a PHD Student at Universidad Complutense de Madrid.
           </p>
@@ -18,7 +18,6 @@ const Home = () => {
         <SocialLink />
       </div>
       <hr className="w-full border my-10" />
-
       <p className="text-secondary font-semibold text-2xl">Working papers</p>
       <div className="my-10 flex flex-col gap-10">
         <div className="flex flex-col gap-5">
