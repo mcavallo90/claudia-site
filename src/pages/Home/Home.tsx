@@ -18,7 +18,7 @@ const Home = () => {
         <SocialLink />
       </div>
       <hr className="w-full border my-10" />
-      <p className="text-secondary font-semibold text-2xl">Working papers</p>
+      <p className="text-secondary font-semibold text-4xl">Working papers</p>
       <div className="my-10 flex flex-col gap-10">
         <div className="flex flex-col gap-5">
           <p className="text-xl text-primary">
