@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="w-full flex items-center text-xl gap-10">
+      <div className="px-10 py-5 w-full flex items-center text-secondary text-xl gap-10">
         <div className="flex">
           <Link to="/home" className="flex items-center">
             <img
