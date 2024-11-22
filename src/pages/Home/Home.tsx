@@ -5,7 +5,11 @@ const Home = () => {
     <div className="w-full h-full flex flex-col items-center px-48 py-20">
       <p className="text-6xl text-secondary font-semibold">Claudia Ranocchia</p>
       <div className="flex my-20 gap-10">
-        <img src="/assets/photos/profile.jpeg" alt="" className="w-100 h-80" />
+        <img
+          src={"assets/photos/profile.jpeg"}
+          alt=""
+          className="w-100 h-80"
+        />
         <div className="flex flex-col gap-5">
           <p className="text-xl text-primary">Hello, welcome to my website!</p>
           <p className="text-xl text-primary">I'm a Environmental Economist.</p>
