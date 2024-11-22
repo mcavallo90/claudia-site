@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/claudia-site/',
   resolve: {
     alias: {
-      '/assets': `/claudia-site/assets`,
+      '@assets': `/claudia-site/assets`,
     },
   },
   server: {
