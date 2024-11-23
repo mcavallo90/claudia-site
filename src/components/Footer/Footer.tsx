@@ -3,7 +3,7 @@ import SocialLink from "../SocialLink/SocialLink";
 const Footer = () => {
   return (
     <>
-      <div className="mt-10 p-5 flex justify-between items-center text-xl text-secondary">
+      <div className="mt-10 p-5 flex flex-col sm:flex-row justify-between items-center text-xl text-secondary">
         <div>Claudia Ranocchia</div>
         <div>claudiaranocchia@gmail.com</div>
         <div>Universidad Autonoma de Madrid</div>

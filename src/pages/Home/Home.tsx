@@ -2,18 +2,24 @@ import SocialLink from "../../components/SocialLink/SocialLink";
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center px-48 py-20">
-      <p className="text-6xl text-secondary font-semibold">Claudia Ranocchia</p>
-      <div className="flex my-20 gap-10">
+    <div className="w-full h-full flex flex-col items-center px-4 sm:px-8 md:px-16 lg:px-48 py-10 sm:py-16 lg:py-20">
+      <p className="text-4xl sm:text-5xl md:text-6xl text-secondary font-semibold">
+        Claudia Ranocchia
+      </p>
+      <div className="flex flex-col sm:flex-row my-20 gap-10 items-center">
         <img
           src={"assets/photos/profile.jpeg"}
-          alt=""
+          alt="profile image"
           className="w-100 h-80"
         />
         <div className="flex flex-col gap-5">
-          <p className="text-xl text-primary">Hello, welcome to my website!</p>
-          <p className="text-xl text-primary">I'm a Environmental Economist.</p>
-          <p className="text-xl text-primary">
+          <p className="text-base sm:text-lg md:text-xl text-primary">
+            Hello, welcome to my website!
+          </p>
+          <p className="text-base sm:text-lg md:text-xl text-primary">
+            I'm a Environmental Economist.
+          </p>
+          <p className="text-base sm:text-lg md:text-xl text-primary">
             I am currently a PHD Student at Universidad Complutense de Madrid.
           </p>
         </div>
@@ -22,17 +28,19 @@ const Home = () => {
         <SocialLink />
       </div>
       <hr className="w-full border my-10" />
-      <p className="text-secondary font-semibold text-4xl">Working papers</p>
+      <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
+        Working papers
+      </p>
       <div className="my-10 flex flex-col gap-10">
         <div className="flex flex-col gap-5">
-          <p className="text-xl text-primary">
+          <p className="text-base sm:text-lg md:text-xl text-primary">
             Skills, Distortions, and the Labor Market Outcomes of Immigrants
             across Space (current draft available upon request - new draft in
             preparation) The paper received the "Peter Sinclair Prize" as the
             3rd best paper at the Macro, Monetary and Finance (MMF) PhD
             Conference (Slides)
           </p>
-          <p className="text-xl text-primary">
+          <p className="text-base sm:text-lg md:text-xl text-primary">
             I study the geography of immigrants' labor market outcomes and its
             implications for spatial inequality. Using US micro-data, I document
             that, compared to natives and immigrants from high-income countries,
