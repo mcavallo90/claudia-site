@@ -77,7 +77,7 @@ const Home = () => {
       </div>
 
       <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
-        Publications 2021
+        Publication
       </p>
       <div className="my-10 flex flex-col gap-10">
         <a href="https://doi.org/10.1007/s10640-020-00533-x" target="_blank">
@@ -97,18 +97,17 @@ const Home = () => {
           abroad and create a parallel incentive for them to deliver a win-win
           solution by investing either in replacement technologies under
           emission taxation, or in abatement technologies under an environmental
-          standard. Ranocchia C., Lambertini L. Environmental and Resource
-          Economics 78: 177–199.
+          standard.
         </p>
       </div>
 
       <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
-        Project: 11/2022 – current
+        Project
       </p>
       <div className="my-10 flex flex-col gap-10">
         <p className="text-base sm:text-lg md:text-xl text-primary">
           Environmental and Economic Implications of the Collaborative Economy
-          (TED2021-129708B-I00){" "}
+          (TED2021-129708B-I00) 2022 - Present
         </p>
         <p className="text-base sm:text-lg md:text-xl text-primary">
           In 2022, I was awarded a grant to work as a research assistant on the
