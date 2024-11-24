@@ -7,6 +7,7 @@ export default {
         primary: "#686767",
         secondary: "#3B3B3B",
         danger: "#e74c3c",
+        nav: "rgb(159 226 159)"
       },
       fontFamily: {
         // sans: ["Inter", "sans-serif"],

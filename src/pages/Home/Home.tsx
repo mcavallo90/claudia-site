@@ -1,11 +1,10 @@
+import BasicCard from "../../components/BasicCard/BasicCard";
 import SocialLink from "../../components/SocialLink/SocialLink";
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center px-4 sm:px-8 md:px-16 lg:px-48 py-10 sm:py-16 lg:py-20">
-      <p className="text-4xl sm:text-5xl md:text-6xl text-secondary font-semibold">
-        Claudia Ranocchia
-      </p>
+    <BasicCard>
+      <p className="text-6xl text-secondary font-semibold">Claudia Ranocchia</p>
       <div className="flex flex-col sm:flex-row my-20 gap-10 items-center">
         <img
           src={"assets/photos/profile.jpeg"}
@@ -17,12 +16,30 @@ const Home = () => {
             Hello, welcome to my website!
           </p>
           <p className="text-base sm:text-lg md:text-xl text-primary">
-            I'm a Environmental Economist.
+            I am a PhD candidate in Economics at Universidad Complutense de
+            Madrid, currently visiting the KU Leuven's Department of Economics.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-primary">
-            I am currently a PHD Student at Universidad Complutense de Madrid.
+            My research field is Microeconomics, working on the intersection
+            between Environmental Economics and IO. My academic interests are
+            green R&D, carbon leakage, and Circular Economy.
           </p>
         </div>
+      </div>
+      <div>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          After graduating in Political Science, economics-oriented curriculum,
+          I completed two master’s degrees in Economics, interspersed with an
+          experience in start-up as a Data Analyst specialized on commodity
+          market prices. In 2022, I was awarded a grant to work as a research
+          assistant on a project funded by the Spanish Ministry of Science and
+          Innovation under the European Recovery, Transformation, and Resilience
+          Plan. This public interest project aims to analyze the implications of
+          the Circular Economy, with the objective of providing policy and
+          environmental recommendations in the regulatory and institutional
+          framework. I am currently employed as a member of this European
+          research group. I also really like teaching.{" "}
+        </p>
       </div>
       <div className="flex my-10 gap-5">
         <SocialLink />
@@ -32,36 +49,82 @@ const Home = () => {
         Working papers
       </p>
       <div className="my-10 flex flex-col gap-10">
-        <div className="flex flex-col gap-5">
-          <p className="text-base sm:text-lg md:text-xl text-primary">
-            Skills, Distortions, and the Labor Market Outcomes of Immigrants
-            across Space (current draft available upon request - new draft in
-            preparation) The paper received the "Peter Sinclair Prize" as the
-            3rd best paper at the Macro, Monetary and Finance (MMF) PhD
-            Conference (Slides)
+        <a
+          href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950005"
+          target="_blank"
+        >
+          <p className="text-base sm:text-lg md:text-xl text-primary underline">
+            Porter Hypothesis vs. Pollution Haven Hypothesis: Can an
+            Environmental Policy Generate a Win-Win Solution? André F.,
+            Ranocchia C., Rubio S.{" "}
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-primary">
-            I study the geography of immigrants' labor market outcomes and its
-            implications for spatial inequality. Using US micro-data, I document
-            that, compared to natives and immigrants from high-income countries,
-            immigrants from low-income countries i) do not earn a premium from
-            working in big cities and ii) are more likely to work in
-            non-cognitive occupations and live in big cities. To shed light on
-            the mechanisms driving these facts, I build a quantitative general
-            equilibrium spatial model where the technology of firms in cities
-            favors cognitive skills, workers are heterogeneous in human capital
-            and tastes for cities and occupations, and immigrants face labor
-            market distortions. Removing all sources of heterogeneity between
-            immigrants and natives reduces their earnings gap by 29 percent at
-            the expense of an increase in the earnings gap between cities by 2.3
-            percent. An immigration policy opening borders to
-            non-college-educated workers increases the earnings gap between
-            immigrants and natives by 1.6 percent but reduces the earnings gap
-            between cities by 1.3 percent.
-          </p>
-        </div>
+        </a>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          <span className="font-semibold">Keywords</span>: Cournot competition,
+          green R&D, emission tax, emission standard, Pollution Haven
+          Hypothesis, Porter Hypothesis.
+        </p>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          This paper extends the previous work, "Porter Hypothesis vs Pollution
+          Haven Hypothesis: Can there be environmental policies getting two eggs
+          in one basket?". We repeat the analysis within a non-cooperative game
+          framework, also examining the equilibrium outcomes irrespective of the
+          relative size of relocation and investment costs. Our findings
+          reaffirm the strategic role of policymakers in designing environmental
+          policies to achieve a win-win equilibrium. Additionally, we broaden
+          the conditions under which this equilibrium is attainable.
+        </p>
       </div>
-    </div>
+
+      <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
+        Publications 2021
+      </p>
+      <div className="my-10 flex flex-col gap-10">
+        <a href="https://doi.org/10.1007/s10640-020-00533-x" target="_blank">
+          <p className="text-base sm:text-lg md:text-xl text-primary underline">
+            Porter Hypothesis vs Pollution Haven Hypothesis: Can there be
+            environmental policies getting two eggs in one basket?
+          </p>
+        </a>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          <span className="font-semibold">Keywords</span>: Cournot competition,
+          Collusion, green R&D, emission tax, emission standard, Pollution Haven
+          Hypothesis, Porter Hypothesis.
+        </p>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          The paper illustrates the possibility of designing environmental
+          policies able to eliminate firms' incentives to relocate their plants
+          abroad and create a parallel incentive for them to deliver a win-win
+          solution by investing either in replacement technologies under
+          emission taxation, or in abatement technologies under an environmental
+          standard. Ranocchia C., Lambertini L. Environmental and Resource
+          Economics 78: 177–199.
+        </p>
+      </div>
+
+      <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
+        Project: 11/2022 – current
+      </p>
+      <div className="my-10 flex flex-col gap-10">
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          Environmental and Economic Implications of the Collaborative Economy
+          (TED2021-129708B-I00){" "}
+        </p>
+        <p className="text-base sm:text-lg md:text-xl text-primary">
+          In 2022, I was awarded a grant to work as a research assistant on the
+          project “Environmental and Economic Implications of the Collaborative
+          Economy” (reference TED2021-129708B-I00), funded by the Ministry of
+          Science and Innovation under the Recovery, Transformation, and
+          Resilience Plan of the Spanish Government. My PhD is funded by this
+          project, and its academic outcomes form part of my doctoral thesis.
+          The objective of this project is to analyze the environmental and
+          economic implications of the Circular Economy, with a focus on
+          Collaborative Consumption, Sharing Economy and the Second-Hand Market.
+          We address these issues from both a theoretical and an applied
+          microeconomic perspective.{" "}
+        </p>
+      </div>
+    </BasicCard>
   );
 };
 

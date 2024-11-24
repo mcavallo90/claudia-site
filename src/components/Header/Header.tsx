@@ -7,10 +7,10 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="relative w-full bg-white shadow-md">
-      <div className="px-5 py-5 flex items-center justify-between text-secondary text-xl">
+    <header className="relative w-full bg-nav shadow-md">
+      <div className="px-5 py-5 flex items-center justify-between sm:justify-start text-secondary text-xl gap-10">
         <div className="flex items-center">
-          <Link to="/home" className="flex items-center">
+          <Link to="/home" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
             <img
               src="assets/icons/person-dark.png"
               className="scale-50 cursor-pointer h-10 w-10"
@@ -43,7 +43,7 @@ const Header = () => {
         </nav>
       </div>
       {isMenuOpen && (
-        <nav className="absolute top-full left-0 w-full bg-white shadow-lg flex flex-col items-start z-10">
+        <nav className="absolute top-full left-0 w-full bg-nav shadow-lg flex flex-col items-start z-10">
           <Link
             to="/cv"
             className="block w-full px-5 py-3 hover:bg-gray-100"
