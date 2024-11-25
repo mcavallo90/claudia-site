@@ -77,13 +77,15 @@ const Home = () => {
       </div>
 
       <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
-        Publication
+        Publications
       </p>
       <div className="my-10 flex flex-col gap-10">
         <a href="https://doi.org/10.1007/s10640-020-00533-x" target="_blank">
           <p className="text-base sm:text-lg md:text-xl text-primary underline">
             Porter Hypothesis vs Pollution Haven Hypothesis: Can there be
-            environmental policies getting two eggs in one basket?
+            environmental policies getting two eggs in one basket? Ranocchia C.,
+            Lambertini L. Environmental and Resource Economics 78: 177–199,
+            2021.
           </p>
         </a>
         <p className="text-base sm:text-lg md:text-xl text-primary">
@@ -102,7 +104,7 @@ const Home = () => {
       </div>
 
       <p className="text-secondary font-semibold text-2xl sm:text-3xl md:text-4xl">
-        Project
+        Projects
       </p>
       <div className="my-10 flex flex-col gap-10">
         <p className="text-base sm:text-lg md:text-xl text-primary">

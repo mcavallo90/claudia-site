@@ -11,7 +11,7 @@ const SocialLink = () => {
           className="w-10 h-10"
         />
       </a>
-      <a href="https://x.com/cranocchia21" target="_blank">
+      <a href="https://twitter.com/ClauRanocchia" target="_blank">
         <img src="assets/icons/x.png" alt="x" className="w-10 h-10" />
       </a>
     </>
