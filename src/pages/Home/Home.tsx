@@ -16,8 +16,15 @@ const Home = () => {
             Hello, welcome to my website!
           </p>
           <p className="text-base sm:text-lg md:text-xl text-primary">
-            I am a PhD candidate in Economics at Universidad Complutense de
-            Madrid, currently visiting the KU Leuven's Department of Economics.
+            I am a PhD candidate in Economics at{" "}
+            <span className="font-semibold">
+              Universidad Complutense de Madrid
+            </span>
+            , currently visiting the{" "}
+            <span className="font-semibold">
+              KU Leuven's Department of Economics
+            </span>
+            .
           </p>
           <p className="text-base sm:text-lg md:text-xl text-primary">
             My research field is Microeconomics, working on the intersection

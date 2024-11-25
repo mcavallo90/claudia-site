@@ -11,7 +11,7 @@ const Contact = () => {
           </p>
         </a>
         <p className="text-primary">
-          <span className="font-bold">Email:</span>{" "}
+          <span className="font-semibold">Email:</span>{" "}
           <a href="mailto:claurano@ucm.es" className="underline">claurano@ucm.es</a>
         </p>
       </div>
