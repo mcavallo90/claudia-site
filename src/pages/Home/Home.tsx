@@ -31,6 +31,9 @@ const Home = () => {
             between Environmental Economics and IO. My academic interests are
             green R&D, carbon leakage, and Circular Economy.
           </p>
+          <p className="text-base sm:text-lg md:text-xl text-primary font-semibold">
+            I am on the 2024-25 job market.
+          </p>
         </div>
       </div>
       <div>
