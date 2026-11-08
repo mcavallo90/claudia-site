@@ -9,12 +9,12 @@ export interface ApplicationLayoutProps {
 
 const ApplicationLayout = ({ children }: ApplicationLayoutProps) => {
   return (
-    <div className="w-full h-screen flex flex-col">
+    <div className="min-h-screen w-full flex flex-col">
       <Header />
-        <div className="flex-1 w-full bg-gray-100">
-          {children}
-          <Outlet />
-        </div>
+      <main className="flex-1 w-full min-w-0 bg-gray-100">
+        {children}
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );

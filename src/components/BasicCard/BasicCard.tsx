@@ -1,6 +1,8 @@
-const BasicCard = ({ children }: any) => {
+import { ReactNode } from "react";
+
+const BasicCard = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="w-full h-full flex flex-col items-center px-4 sm:px-8 md:px-16 lg:px-48 py-10 sm:py-16 lg:py-20">
+    <div className="w-full max-w-4xl mx-auto px-5 sm:px-8 py-8 sm:py-14">
       {children}
     </div>
   );

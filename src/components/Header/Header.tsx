@@ -20,13 +20,14 @@ const Header = () => {
           </Link>
         </div>
         <button
-          className="sm:hidden flex flex-col space-y-1 cursor-pointer"
+          className="sm:hidden flex flex-col justify-center items-center gap-1.5 w-11 h-11 cursor-pointer"
           onClick={toggleMenu}
-          aria-label="Toggle Navigation Menu"
+          aria-expanded={isMenuOpen}
+          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
         >
-          <span className="block w-6 h-1 bg-secondary"></span>
-          <span className="block w-6 h-1 bg-secondary"></span>
-          <span className="block w-6 h-1 bg-secondary"></span>
+          <span className="block w-6 h-0.5 bg-secondary"></span>
+          <span className="block w-6 h-0.5 bg-secondary"></span>
+          <span className="block w-6 h-0.5 bg-secondary"></span>
         </button>
 
         {/* Desktop Navigation */}
@@ -46,21 +47,21 @@ const Header = () => {
         <nav className="absolute top-full left-0 w-full bg-nav shadow-lg flex flex-col items-start z-10">
           <Link
             to="/cv"
-            className="block w-full px-5 py-3 hover:bg-gray-100"
+            className="block w-full px-5 py-4 text-lg hover:bg-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             CV
           </Link>
           <Link
             to="/teaching"
-            className="block w-full px-5 py-3 hover:bg-gray-100"
+            className="block w-full px-5 py-4 text-lg hover:bg-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Teaching
           </Link>
           <Link
             to="/contact"
-            className="block w-full px-5 py-3 hover:bg-gray-100"
+            className="block w-full px-5 py-4 text-lg hover:bg-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Contact

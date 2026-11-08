@@ -7,8 +7,16 @@
   font-family: Montserrat;
 }
 
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
 body {
-  height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+  line-height: 1.6;
 }
 
 /* Chrome, Safari, Edge, Opera */
